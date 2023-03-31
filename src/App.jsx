@@ -12,7 +12,6 @@ const App = () => {
       <div id={`${trailer.status ? 'filter_bg' : ''}`}>
         <MainLayout>
           <div className='container'>{elements}</div>
-          <div>dsjàkda</div>
         </MainLayout>
       </div>
     </SkeletonTheme>
