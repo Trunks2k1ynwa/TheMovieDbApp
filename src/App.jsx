@@ -8,7 +8,7 @@ const App = () => {
   const elements = useRoutesElements()
   const trailer = useSelector((state) => state.trailer)
   return (
-    <SkeletonTheme baseColor='#313131' highlightColor='#525252'>
+    <SkeletonTheme baseColor='#313132' highlightColor='#525252'>
       <div id={`${trailer.status ? 'filter_bg' : ''}`}>
         <MainLayout>
           <div className='container'>{elements}</div>
